@@ -296,13 +296,21 @@ header {
     }
 }
 
-
+/* my work image*/
+.my-workImage {
+    background-color: var(--clr-dark);
+    background-image: url(../img/ash4.jpg);
+    background-size: contain;
+    /* background-blend-mode: multiply; */
+    /* color: var(--clr-light); */
+    /* text-align: center; */
+}
 
 /*  My services section  */
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+    /* background-image: url(../img/services-bg.jpg); */
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
@@ -311,7 +319,7 @@ header {
 
 .section__title--services {
     /* color: var(--clr-accent); */
-    color: var(--clr-blue);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -332,6 +340,10 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service-heading{
+    color: var(--clr-blue);
 }
 
 @media (min-width: 800px) {
@@ -398,20 +410,34 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    /* background-color: var(--clr-dark);
+    color: var(--clr-light); */
     text-align: center;    
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--clr-light);
+    color: var(--clr-dark);
+
+    /* background-color: var(--clr-dark); */
+    /* background-image: url(../img/services-bg.jpg); */
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    /* color: var(--clr-light); */
+    /* text-align: center; */
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
 .portfolio__item {
     /* background: var(--clr-accent); */
-    background: var(--clr-blue);
+    /* background: var(--clr-blue); */
     overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+    color: var(--clr-orange);
 }
 
 .portfolio__img {
